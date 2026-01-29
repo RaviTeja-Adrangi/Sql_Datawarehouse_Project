@@ -29,3 +29,15 @@ Design and implement a modern data warehouse using Microsoft SQL Server to conso
 ### 🔹 Documentation
 - Provide clear and structured documentation of the data model to support both business users and analytics teams.
 
+TL;DR
+
+This project focuses on transforming raw CSV data into meaningful business insights using the Medallion Architecture.
+
+Bronze layer: Raw CSV files are ingested as-is into tables by creating the required databases, schemas, and tables.
+
+Silver layer: Data is loaded from Bronze using ELT, cleaned, transformed, and standardized. All transformations are organized into stored procedures for easy execution and reusability.
+
+Gold layer: Business-ready views are created to expose curated data for reporting and analytics.
+
+👉 The end goal is to deliver clean, reliable, and insight-ready data that directly supports business decision-making.
+
